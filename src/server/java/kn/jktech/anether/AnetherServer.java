@@ -1,4 +1,4 @@
-package kn.jktech.anether.server;
+package kn.jktech.anether;
 
 import com.fox2code.foxloader.loader.ServerMod;
 import kn.jktech.anether.Anether;
