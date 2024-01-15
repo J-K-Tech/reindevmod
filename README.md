@@ -9,3 +9,7 @@ Rat block texture by [@silveros](https://github.com/silverosre)
 For mixins usage check here: https://github.com/2xsaiko/mixin-cheatsheet
 
 For spark usage check here: https://spark.lucko.me/docs/Command-Usage
+
+##
+
+compile with jdk-11

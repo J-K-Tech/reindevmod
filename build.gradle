@@ -2,24 +2,30 @@ buildscript {
 	repositories {
         mavenCentral()
         maven { url 'https://jitpack.io/' }
+        maven {
+            name = "Modrinth"
+            url = "https://api.modrinth.com/maven"
+        }
+        maven {url 'https://nexus.velocitypowered.com/repository/maven-public/'}
     }
     dependencies {
-        classpath('com.fox2code.FoxLoader:dev:1.2.32')
+        classpath('com.github.fox2code.FoxLoader:dev:1.2.30')
+        classpath('com.github.SpongePowered:Mixin:releases~0.8.5')
     }
 }
 
 apply plugin: 'foxloader.dev'
 
-version '1.1.1'
+version '0.0.0.0.0_01 super alpha almost classic'
 
 foxloader {
     // forceReload = true
-    modId = "examplemod"
-    modName = "Fox Loader Example Mod"
+    modId = "anether"
+    modName = "anether"
     modVersion = project.version
-    modDesc = "An example mod for developers!!"
-    clientMod = "com.fox2code.examplemod.ExampleModClient"
-    serverMod = "com.fox2code.examplemod.ExampleModServer"
+    modDesc = "aether to nether portal allowed"
+    clientMod = "kn.jktech.anether.AnetherClient"
+    serverMod = "kn.jktech.anether.AnetherServer"
     // Development tools don't like that both client and server define
     // the same classes, so uncomment to disable the side inclusion.
     // includeClient = false
