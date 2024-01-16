@@ -40,7 +40,7 @@ public class MixinPortalHandler {
         int id = Block.portal.blockID;
 
         for (int i=0;i<600;i++){
-            for (int x=-8;x<=8;x++){for(int z=-8;z<=8;z++){
+            for (int x=-16;x<=16;x++){for(int z=-16;z<=16;z++){
                 if(world.getBlockId((xpos)+x,121+i,(zpos)+z)==id){
                     entity.setPosition((entity.posX)+x,121+i,(entity.posZ)+z);
                     return true;

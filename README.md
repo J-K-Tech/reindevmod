@@ -1,15 +1,9 @@
-# Fox Loader Example Mod
+# ANETHER
 
-Example mod for [FoxLoader](https://github.com/Fox2Code/FoxLoader)
+aether and nether can finally link portals together
 
-Rat block texture by [@silveros](https://github.com/silverosre)
+# usage: 
 
-## Documentation
+portals above Y=120 will work with my mod, the only downside is that blocks must
+be with about 20 blocks apart (each direction in overworld) to they dont link
 
-For mixins usage check here: https://github.com/2xsaiko/mixin-cheatsheet
-
-For spark usage check here: https://spark.lucko.me/docs/Command-Usage
-
-##
-
-compile with jdk-11
